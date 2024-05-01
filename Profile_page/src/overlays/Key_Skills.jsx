@@ -9,7 +9,10 @@ const Key_Skills = () => {
 
   const AddedSkills = KeySkills.map((skill) => (
     <span key={skill.id}>
-      <span className="p-2 m-2 ml-0 pl-0">{skill.text}</span>
+      <span className="p-2 m-2 ml-0 pl-0">
+        {skill.text}
+        <button>x</button>
+      </span>
     </span>
   ));
 
